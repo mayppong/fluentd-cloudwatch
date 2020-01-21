@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  fluentd-cloudwatch:
+  - apiVersion: v1
+    appVersion: v1.8.1-debian-cloudwatch-1.0
+    created: "2020-01-21T07:46:08.7543568Z"
+    description: A Fluentd CloudWatch Helm chart for Kubernetes.
+    digest: 3b24fb8113198d09bbd6d196695d9ca0189e880937b9789a3a676f02c5555163
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - cloudwatch
+    - logging
+    maintainers:
+    - email: me@mayppong.com
+      name: mayppong
+    name: fluentd-cloudwatch
+    sources:
+    - https://github.com/kubernetes/charts
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    - https://github.com/helm/charts/tree/master/incubator/fluentd-cloudwatch
+    urls:
+    - https://mayppong.github.com/fluentd-cloudwatch/fluentd-cloudwatch-1.8.1.tgz
+    version: 1.8.1
+generated: "2020-01-21T07:46:08.7455312Z"
